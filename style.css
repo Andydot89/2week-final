@@ -993,10 +993,21 @@ color: #fff;
 .footer-button button{
   border-radius: 50%;
   border-color: #fff;
+  border-style: none;
+  margin: 2px;
 }
 .footer-button i{
-  padding: 8px;
+  padding: 6px;
   
+}
+.footer-nav{
+  display: flex;
+  align-items: center;
+}
+.footer-nav h1 {
+  color: #fff;
+  padding: 16px;
+  font-size: 22px;
 }
 
 /* Small phones and Tablets */
