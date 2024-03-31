@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0px;
   box-sizing: border-box;
-  font-family: "Roboto Serif", serif;
+  font-family: "Roboto Serif", sans-serif;
+  text-decoration: none;
 }
 .purple  {
   color: rgb(100 21 255);
@@ -11,7 +12,11 @@
 
 
 /* NAV BAR CSS */
-
+.navigation{
+ margin-top: 30px;
+  margin-left: 250px;
+  margin-right: 200px;
+}
 .navbar-wrapper {
   display: flex;
   justify-content: space-between;
@@ -24,22 +29,37 @@
   color: #000;
 }
 .logo {
-  width: 40px;
+  width: 50px;
+}
+.treact-txt h1 {
+  font-size: 24px ;
+  font-weight: 800;
+  font-family: "Roboto Serif", sans-serif;
 }
 .nav-link-ul {
+
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.nav-link {
-  list-style-type: none;
+.nav-link  {
+  list-style: none;
   padding-left: 16px;
-  padding-right: 8px;
-  font-size: 20px;
+  padding-right: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: .05rem;
 }
+.nav-link-ul a {
+  text-decoration: none;
+}
+
+
 .nav-link button{
   border-radius: 35px;
   width: 98px;
   height: 30px;
-  font-size: 20px;
+  font-size: 14px;
   border: rgb(100 21 255);
   background-color: rgb(100 21 255);
   color: #fff;
@@ -68,10 +88,11 @@
 
 .picone {
   width: 650px;
-  margin-right: 200px;
+  margin-right: 100px;
 }
 .logostrip {
-  width: 500px;
+  opacity: 50%;
+  width: 475px;
   padding: 16px;
   margin-top: 30px;
 }
@@ -83,7 +104,7 @@
   
 }
 .title-column-left {
- margin-left: 300px;
+ margin-left: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -98,9 +119,18 @@
   display: flex;
   align-items: flex-end;
 }
-
+::placeholder{
+  font-family: "Roboto Serif", serif;
+  font-size: 24px;
+  text-align: start;
+  padding-left: 18px;
+}
+input{
+  font-family: "Roboto Serif", serif;
+  font-size:  22px;
+}
 .title-para {
-  font-size: 22px;
+  font-size: 20px;
   padding: 25px 0px;
   text-align: start;
   display: flex;
@@ -130,7 +160,8 @@ border-color: #cbcbcb;
   text-decoration: none;
   border-color: rgb(100 21 255);
   border-radius: 45px;
-  font-size: 22px ;
+  font-size: 16px ;
+  font-weight: 600;
   width: 150px;
   height: 100%;
  
@@ -283,6 +314,7 @@ align-items: center;
   padding-bottom: 16px;
 }
 .quality-btn button{
+  font-weight: 600;
   padding: 10px 0px;
   height: 30%;
   width: 25%;
@@ -327,6 +359,7 @@ padding: 26px 100px;
 }
 .step_txt{
   font-size: 45px;
+  padding-bottom: 36px;
 }
 
 
@@ -340,9 +373,11 @@ padding: 26px 100px;
   font-size: 30px;
   
 }
+.steps-right-text p {
+  line-height: 2em;
+}
 .steps-half{
- padding: 20px;
- margin-right: 100px;
+  padding: 20px;
   display: flex;
   align-items: center;
  }
@@ -366,6 +401,7 @@ align-items: center;
 .steps-three b{
   font-size: 24px;
 }
+
 
 /* Values Section CSS  */
 
@@ -433,7 +469,8 @@ padding: 28px;
   border-color: rgb(100 21 255);
   border-radius: 26px;
   margin-left: 36px;
-  font-size: 22px ;
+  font-size: 14px ;
+  font-weight: 600;
   width: 20%;
   padding: 10px;
 }
@@ -888,9 +925,9 @@ font-weight: bold;
   text-decoration: none;
   border-color: rgb(100 21 255);
   border-radius: 45px;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: .05em;
-  width:  185px;
+  width:  155px;
   height: 65px;
   text-transform: uppercase;
   padding: 6px;
@@ -903,11 +940,14 @@ font-weight: bold;
   margin-left: 8px;
   background-color: rgb(100 21,255);
 }
-  /* Footer Section (Copyright) */
 
+
+  /* Footer Section (Copyright) */
+   
   .main_footer{
     border-top: 2px solid rgb(100 21 255);
     background-color: rgb(100 21 255);
+    color: #fff;
     width: 100%;
     margin-top: 75px;
     height: 45vh;
@@ -922,28 +962,18 @@ font-weight: bold;
     justify-content: space-around;
   }
   .main_footer li {
+    font-size: 14px;
     list-style-type: none;
     padding: 16px;
-    color: #fff;
     text-align: start;
-    margin-left: 100px;
-    margin-right: 100PX;
+    margin-left: 120px;
+    margin-right: 120PX;
   }
-  
-.footer-img{
+ 
+   .footer-img{
   width: 40px;
   background-color: #fff;
-}
-.footer-nav{
-  padding: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.footer-nav h1{
-  padding: 16px;
-  color: #fff;
-}
+  }
 
 
 
@@ -952,9 +982,7 @@ footer{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
-}
-.footer-nav
+  }
 .copyright{
 color: #fff;
 }
