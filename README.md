@@ -1,1 +1,1 @@
-gh repo clone Andydot89/2week-final
+2week-final
