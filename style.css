@@ -64,10 +64,11 @@
   background-color: rgb(100 21 255);
   color: #fff;
 }
-.nav-link button :hover {
-  box-shadow: #000 2px ;
-  display: block;
-  transition: all .5em;
+.nav-link button:hover {
+  background-color: rgb(123, 59, 252) ;
+  transition: all 50ms;
+  box-shadow: 0 1px 0 2px #000;
+  letter-spacing: 1px;
 }
 
 
@@ -333,6 +334,13 @@ align-items: center;
   background-color: rgb(100 21 255);
   color: #fff;
 }
+.quality-btn button:hover{
+  background-color: rgb(123, 59, 252) ;
+  transition: all 50ms;
+  box-shadow: 0 1px 0 2px #000;
+  letter-spacing: 1px;
+  
+}
 
 /* Steps Section CSS */
 
@@ -484,6 +492,12 @@ padding: 28px;
   font-weight: 600;
   width: 20%;
   padding: 10px;
+} 
+.value-button:hover{
+  background-color: rgb(123, 59, 252) ;
+  transition: all 50ms;
+  box-shadow: 0 1px 0 2px #000;
+  letter-spacing: 1px;
 }
 .values_logo {
 width: 650px;
@@ -808,11 +822,23 @@ font-weight: bold;
   font-weight: bold;
 
 }
-.pricing-plan a:hover{
-  background-color: #b5b5b5;
+.pricing-plan-three button:hover {
+  background-color: rgb(245, 101, 101) ;
+  transition: all 50ms;
+  box-shadow: 0 1px 0 2px #000;
+  letter-spacing: 1px;
 }
-.pricing-plan-two a:hover{
-  background-color: #b5b5b5;
+.pricing-plan button:hover{
+  background-color: rgb(27, 197, 189) ;
+  transition: all 50ms;
+  box-shadow: 0 1px 0 2px #000;
+  letter-spacing: 1px;
+}
+.pricing-plan-two button:hover{
+  background-color: #ffffff;
+  transition: all 50ms;
+  box-shadow: 0 1px 0 2px #000;
+  letter-spacing: 1px;
 }
 
 /* Testimonials Section CSS */
@@ -946,6 +972,19 @@ font-weight: bold;
 .start-button-one{
   margin-right: 8px;
   background-color: rgb(245, 101, 101);
+}
+.start-button-one:hover {
+  background-color: rgb(247, 81, 81) ;
+  transition: all 50ms;
+  box-shadow: 0 1px 0 2px #000;
+  letter-spacing: 1px;
+}
+.start-button-two:hover {
+  background-color: #fff ;
+  transition: all 50ms;
+  box-shadow: 0 1px 0 2px #000;
+  color: #000;
+  letter-spacing: 1px;
 }
 .start-button-two{
   margin-left: 8px;
