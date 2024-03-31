@@ -474,10 +474,23 @@ padding: 8px;
   padding: 30px;
 }
 .pricing-plan{
+  box-shadow: 0 -8px 0 rgb(56, 178, 172);
   flex: 1;
   margin: 15px 8px;
   padding: 30px;
   border-radius: 6px;
+  height: 70vh;
+ color: #000;
+ border-style: solid;
+ border-color: #cbcbcb;
+ border-radius: 26px;
+  width: 450px;
+}
+.pricing-plan-three{
+  box-shadow: 0 -8px  rgb(245, 101, 101);
+  flex: 1;
+  margin: 15px 8px;
+  padding: 30px;
   height: 70vh;
  color: #000;
  border-style: solid;
@@ -510,6 +523,15 @@ padding: 8px;
   font-size: 26px;
   font-weight: bold;
 }
+.pricing-plan-three h1 {
+  margin-top: 0;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+}
 .pricing-plan-two h1 {
   margin-top: 0;
   padding-bottom: 10px;
@@ -520,6 +542,17 @@ padding: 8px;
   font-weight: bold;
 }
 .pricing-plan h2 {
+  margin-top: 0;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+ font-size: 20px;
+ text-align: center;
+ font-weight: bold;
+ padding: 20px;
+  
+}
+.pricing-plan-three h2 {
   margin-top: 0;
   padding-bottom: 10px;
   text-transform: uppercase;
@@ -545,8 +578,21 @@ padding: 8px;
   padding: 16px;
   text-align: center; 
 }
+.pricing-plan-three .monthly {
+  margin-top: 0;
+  padding: 16px;
+  text-align: center; 
+}
 
 .pricing-plan .duration {
+  margin-top: 0;
+  padding: 8px;
+  text-align: center;
+  font-size: 26px; 
+  font-weight: bold;
+  border-bottom: 2px solid #cbcbcb;
+}
+.pricing-plan-three .duration {
   margin-top: 0;
   padding: 8px;
   text-align: center;
@@ -573,11 +619,24 @@ padding: 8px;
 font-size: 42px;
 font-weight: bold;
 }
+.pricing-plan-three p span {
+  font-size: 42px;
+  font-weight: bold;
+  }
 .pricing-plan-two p span {
   font-size: 42px;
   font-weight: bold;
 }
   .pricing-plan ul {
+  margin: 0 0 35px;
+  text-align: center;
+  padding: 20px;
+  padding-left: 16px;
+  list-style: none;
+  line-height: 1.8;
+  color: grey ;
+}
+.pricing-plan-three ul {
   margin: 0 0 35px;
   text-align: center;
   padding: 20px;
@@ -599,6 +658,10 @@ font-weight: bold;
   font-size: 18px;
   padding: 16px;
 }
+.pricing-plan-three li {
+  font-size: 18px;
+  padding: 16px;
+}
 .pricing-plan-two li {
   font-size: 18px;
  padding: 16px;
@@ -608,6 +671,10 @@ font-weight: bold;
  padding: 12px;
  margin-top: 16px;
 }
+.pricing-plan-three button{
+  padding: 12px;
+  margin-top: 16px;
+ }
 .pricing-plan-two button{
   padding: 12px;
  margin-top: 16px;
@@ -902,4 +969,174 @@ color: #fff;
 .footer-button i{
   padding: 8px;
   
+}
+
+/* Small phones and Tablets */
+
+@media (max-width: 728px){
+
+.navigation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.navigation ul{
+  display: none;
+}
+
+.title-wrapper{
+  margin-right: 40%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.picone{
+width: 450px;
+margin-left: 30%;
+display: flex;
+align-items: center;
+}
+.logostrip{
+  width: 400px;
+  margin-right: 50px;
+}
+.title-left{
+  font-size: 30px;
+}
+.title-input-info{
+  width: 50%;
+}
+
+.email-button{
+  width: 100px;
+  font-size: 20px;
+}
+.title-para{
+  font-size: 18px;
+}
+
+.features-header-wrapper{
+  margin-left: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.column-wrapper{
+  margin-bottom: 60%;
+  height: 80%;
+  margin-right: -18%;
+  margin-left: -6px;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.column-wrapper p {
+display: none;
+}
+.column-wrapper h1{
+  font-size: 18px;
+}
+.feature-header{
+  font-size: 12px;
+  text-align: center;
+}.feature-header-second{
+  font-size: 26px;
+  text-align: center;
+}
+.feature-para{
+  font-size: 16px;
+  text-align: center;
+}
+.quality-wrapper{
+  margin-top: -50%;
+  margin-right: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.quality-img{
+  margin-top: 30px;
+  width: 450px;
+  margin-left: 34%;
+}
+
+.quality-btn{
+  width: 100%;
+}
+.steps-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.step-img{
+  width: 450px;
+  margin-left: -25px;
+}
+.steps-column-right{
+  margin-left: 80%
+}
+.value-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.values_logo{
+  width: 450px;
+  display: none;
+}
+.value-button{
+  font-size: 18px;
+  width: 30%;
+}
+.price-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.price-title p{
+  text-align: center;
+  font-size: 16px;
+}
+.test-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.testimonials-img-one{
+  width: 450px;
+  margin-left: 2rem;
+}
+.pricing{
+  margin-left: 20px;
+}
+.test-column-right{
+  margin-left: 50%;
+}
+.faq{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.getstarted{
+  display: none;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main_footer{
+  display: none;
+}
+.copyright{
+  display: none;
+}
 }
