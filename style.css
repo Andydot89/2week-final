@@ -64,9 +64,12 @@
   background-color: rgb(100 21 255);
   color: #fff;
 }
-.nav-link button :hover{
-  transition: 200ms;
+.nav-link button :hover {
+  box-shadow: #000 2px ;
+  display: block;
+  transition: all .5em;
 }
+
 
 .left-column-nav {
   display: flex;
@@ -194,8 +197,12 @@ border-color: #cbcbcb;
  .column-title {
   padding: 18px
  }
- .column-img{
+ .column-img {
   width: 30px;
+  border: #cbcbcb 2px solid;
+  border-radius: 45px;
+  padding: 8px;
+  width: 14%;
   
  }
  
@@ -274,6 +281,9 @@ border-color: #cbcbcb;
 }
 
 /* Quality Section CSS */
+
+
+
 .quality-container {
   height: calc(100vh- 70px);
   width: 36px;
@@ -307,6 +317,7 @@ align-items: center;
   font-size: 32px;
   padding: 6px 0px;
  }
+
 
 .para-quality {
   font-size: 22px;
