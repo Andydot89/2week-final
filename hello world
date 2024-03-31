@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/acfe490c7c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets.treact/" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Nav Bar  -->
+    <section class="navigation">
+      <nav>
+        <div class="navbar-wrapper">
+          <div class="left-column-nav">
+            <div class="logo-nav">
+              <img
+                src="./assets.treact/logo.2c489fc453a1783cbadacf914efa3df6.svg"
+                class="logo"
+                alt="Treact logo"
+              />
+            </div>
+            <div class="treact-txt">
+              <h1 class="Treactnav">Treact</h1>
+            </div>
+          </div>
+          <div class="nav-links">
+            <ul class="nav-link-ul">
+              <li class="nav-link"><a href="#About">About</a></li>
+              <li class="nav-link"><a href="#Blog"></a>Blog</li>
+              <li class="nav-link"><a href="#Pricing"> Pricing</a></li>
+              <li class="nav-link"><a href="#Contact Us">Contact Us </a></li>
+              <li class="nav-link"><a href="#Login"> Login</a></li>
+              <li class="nav-link">
+                <button class="btn_signup">Sign Up</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- Title Section after Navbar -->
+    <section class="title-page">
+      <div class="title-wrapper">
+        <div class="title-column-left">
+          <div class="title-header">
+            <div class="title-left">
+              <h1>
+                Beautiful React <br />
+                Templates <span class="purple"> for you</span>
+              </h1>
+            </div>
+            <div class="title-para">
+              <p>
+                Our templates are easy to setup, <br />
+                understand and customize. fully modular componenets <br />
+                with a variety of pages and componenets.
+              </p>
+            </div>
+          </div>
+          <div class="title-input-info">
+            <input type="text" name="Your E-mail Adress" id="email" />
+            <button class="email-button">Get Started</button>
+          </div>
+          <div class="title-logo-strip">
+            <img
+              src="./assets.treact/customers-logo-strip.680ac7c2e8ae28161d2c.png"
+              class="logostrip"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="title-column-right">
+          <img
+            src="./assets.treact/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg"
+            class="picone"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Features Section -->
+    <section class="features-container">
+      <div class="feature-wrapper">
+        <div class="features-header-wrapper">
+          <div class="feature-header">
+            <h1><span class="purple">FEATURES</span></h1>
+          </div>
+          <div class="feature-header-second">
+            <h2>We have Amazing <span class="purple">Service. </span></h2>
+          </div>
+          <div class="feature-para">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />
+              Qui sequi quis quod delectus aliquam.
+            </p>
+          </div>
+        </div>
+        <div class="column-wrapper">
+          <div class="column-top-one">
+            <img
+              src="./assets.treact/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg"
+              class="column-img"
+              alt=""
+            />
+            <h1 class="column-title">Secure</h1>
+            <p class="column-para">
+              We strictly only deal <br />
+              with vendors that provide top <br />
+              notch security.
+            </p>
+          </div>
+          <div class="column-top-two">
+            <img
+              src="./assets.treact/support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg"
+              class="column-img"
+              alt=""
+            />
+            <h1 class="column-title">24/7 Support</h1>
+            <p class="column-para">
+              Lorem ipsum dolor sit, <br />
+              amet consectetur adipisicing elit.<br />
+              Perspiciatis, alias.
+            </p>
+          </div>
+          <div class="column-top-three">
+            <img
+              src="./assets.treact/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg"
+              class="column-img"
+              alt=""
+            />
+            <h1 class="column-title">Customizable</h1>
+            <p class="column-para">
+              Lorem, ipsum dolor sit <br />
+              amet consectetur adipisicing elit. <br />
+              Debitis, dolor.
+            </p>
+          </div>
+          <div class="column-bottom-one">
+            <img
+              src="./assets.treact/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg"
+              class="column-img"
+              alt=""
+            />
+            <h1 class="column-title">Reliable</h1>
+            <p class="column-para">
+              Lorem, ipsum dolor sit <br />
+              amet consectetur adipisicing elit.<br />
+              Ducimus, illo!
+            </p>
+          </div>
+          <div class="column-bottom-two">
+            <img
+              src="./assets.treact/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg"
+              class="column-img"
+              alt=""
+            />
+
+            <h1 class="column-title">Fast</h1>
+            <p class="column-para">
+              Lorem ipsum dolor sit, <br />
+              amet consectetur adipisicing elit. <br />
+              Ratione, cupiditate?
+            </p>
+          </div>
+          <div class="column-bottom-three">
+            <img
+              src="./assets.treact/simple-icon.673b7e1750b2a4ef32907fc164828d00.svg"
+              class="column-img"
+              alt=""
+            />
+
+            <h1 class="column-title">Easy</h1>
+            <p class="column-para">
+              Lorem ipsum dolor sit <br />
+              amet consectetur adipisicing elit. <br />
+              Blanditiis, nemo!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quality Section -->
+    <section id="quality-container">
+      <div class="quality-wrapper">
+        <div class="quality-column-left">
+          <div class="quality_title">
+            <h1><span class="purple"> Quality Work</span></h1>
+          </div>
+          <div class="quality_subtitle">
+            <h2>
+              Designed & Developed <br />by
+              <span class="purple">Professionals</span>
+            </h2>
+          </div>
+          <div class="quality_para">
+            <p class="para-quality">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />
+              Veniam, nam laborum accusamus adipisci nulla atque, <br />
+              nobis numquam, impedit alias ipsam inventore sint <br />
+              error expedita iusto!
+            </p>
+          </div>
+          <div class="quality-btn">
+            <button>Learn More</button>
+          </div>
+        </div>
+        <div class="quality_column_right">
+          <div class="quality_img">
+            <img
+              src="./assets.treact/hero-screenshot-1.40a097b525c2f8c9808e.png"
+              class="quality-img"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Steps Section -->
+    <section class="steps">
+      <div class="steps-container">
+        <div class="steps-column-left">
+          <div class="steps-img">
+            <img
+              src="./assets.treact/hero-screenshot-2.241aac1fbc66db29d873.png"
+              class="step-img"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="steps-column-right">
+          <div class="step_txt">
+            <h1 class="step_txt_title"><span class="purple"> Steps</span></h1>
+            <h2 class="step_txt_subtitle">
+              Easy to <span class="purple"> Get Started</span>
+            </h2>
+          </div>
+          <div class="steps-right-text">
+            <div class="steps-half">
+              <span class="lightgrey">01 </span>
+              <p>
+                <b>Register </b> <br />Create an account with us using Google or
+                Facebook.
+              </p>
+            </div>
+            <div class="steps-two">
+              <span class="lightgrey">02</span>
+              <p>
+                <b>Download</b> <br />
+                Browse and Download the template that you like from the
+                marketplace.
+              </p>
+            </div>
+            <div class="steps-three">
+              <span class="lightgrey">03</span>
+              <p>
+                <b>Run</b> <br />
+                Follow the instructions to setup and customize the template to
+                your nmeds.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Values Section -->
+
+    <div class="values">
+      <div class="value-container">
+        <div class="value-wrap">
+          <div class="value-column-left">
+            <div class="value-title">
+              <h1 class="value_header"><span class="purple"> VALUES</span></h1>
+              <h2 class="value_subheader">
+                We always Abide by <br />
+                Our <span class="purple"> Principles</span>
+              </h2>
+              <p class="value_para">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet
+                aut nulla alias, repellat repellendus nihil maxime dolor
+                consequuntur?
+              </p>
+            </div>
+            <div class="values_icons">
+              <div class="value-icon">
+                <h2> <button class="btn-one"><span class="fa-regular fa-dollar"></span> </button>  Affordable</h2>
+                <p>
+                  We promise to offer you the best rate we can- at par with the
+                  industry standard.
+                </p>
+              </div>
+              <div class="value-icon-two">
+                <h2>
+                 <button class="btn-two"><span class="fa fa-suitcase"></span> </button> Professionalism
+                </h2>
+                <p>
+                  We assure you that our templates are designed and created by
+                  professional designers.
+                </p>
+              </div>
+            </div>
+            <div class="value-btn">
+              <button class="value-button">Learn more</button>
+            </div>
+          </div>
+          <div class="value-column-right">
+            <div class="value_logo">
+              <img
+                src="./assets.treact/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg"
+                class="values_logo"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Pricing Section -->
+    <section class="pricing-container">
+      <div class="price-title">
+        <h1 class="subtitle"><span class="purple">PRICING </span></h1>
+        <h2 class="maintitle">
+          Reasonable & Flexible <span class="purple"> Plans </span>
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eaque
+          facere omnis sapiente fugiat aliquid.
+        </p>
+      </div>
+      <div class="pricing">
+        <div class="pricing-plan">
+          <h1>Personal</h1>
+          <p class="monthly"><span>$17.99</span></p>
+          <p class="duration">Monthly</p>
+          <h2>For Individuals</h2>
+          <ul>
+            <li>30 Templates</li>
+            <li>7 landing Pages</li>
+            <li>12 Internal Pages</li>
+            <li>Basic Assistance</li>
+            <button class="button-one">Buy Now</button>
+          </ul>
+        </div>
+        <div class="pricing-plan-two">
+          <h1>Business</h1>
+          <p class="monthly"><span>$37.99</span></p>
+          <p class="duration">Monthly</p>
+          <h2>For Small Business</h2>
+          <ul>
+            <li>60 Templates</li>
+            <li>15 Landing Pages</li>
+            <li>22 Internal Pages</li>
+            <li>Priority Assistance</li>
+            <button class="button-two">Buy Now</button>
+          </ul>
+        </div>
+        <div class="pricing-plan-three">
+          <h1>Enterprise</h1>
+          <p class="monthly"><span>$57.99</span></p>
+          <p class="duration">Monthly</p>
+          <h2>For Large Companies</h2>
+          <ul>
+            <li>90 Templates</li>
+            <li>27 Landing Pages</li>
+            <li>37 Internal Pages</li>
+            <li>Personal Assistance</li>
+            <button class="button-three">Buy Now</button>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <div class="test-container">
+        <div class="test-column-left">
+          <div class="test-img-main">
+            <img
+              src="./assets.treact/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg"
+              class="testimonials-img-one"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="test-column-right">
+          <div class="test-header">
+            <h1 class="subtitle_testimonials">
+              <span class="purple">Testimonials </span>
+            </h1>
+            <h2>Our Clients <span class="purple"> Love Us </span></h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
+              illum quis quod sint, vel dignissimos blanditiis?
+            </p>
+          </div>
+          <div>
+            <span class="fa-regular fa-star"></span>
+            <span class="fa-regular fa-star"></span>
+            <span class="fa-regular fa-star"></span>
+            <span class="fa-regular fa-star"></span>
+            <div class="test-subheader">
+              <h1>Amazing User Experience</h1>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Nostrum impedit quia nulla dolorem magnam incidunt eligendi
+                voluptates rerum sapiente illo?
+              </p>
+            </div>
+              <div class="subheader-img">
+                <img
+                  src="./assets.treact/photo-1494790108377-be9c29b29330.avif"
+                  class="testimonials-img-two"
+                  alt=""
+                />
+                <div>
+                  <h3>Charlotte Hale</h3>
+                  <h4>Director, Delos Inc.</h4>
+                </div>
+                <span class="fa-regular fa-arrow--left"></span>
+                <span class="fa-regular fa-arrow--right"></span>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FAQ's Mini Section -->
+    <section class="faq">
+      <div>
+        <h1 class="subheader"><span class="purple">FAQS</span></h1>
+        <div>
+          <h2 class="title-faq">
+            You Have <span class="purple">Questions</span>
+          </h2>
+          <div>
+            <p class="para_faq default_para">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Get Started Mini Section -->
+    <section class="getstarted">
+      <div class="started-container">
+        <div class="started-column-left">
+          <h1>
+            Developers all over the world are <br />
+            happily using Treact
+          </h1>
+        </div>
+        <div class="started-column-right">
+          <button class="start-button-one">Get Started</button>
+          <button class="start-button-two">Contact Us</button>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section (Copyright) -->
+    <section>
+      <div class="main_footer">
+        <div class="footer-column-one">
+          <ul>
+            <li>MAIN</li>
+            <li><a href="#Blog">Blog</a></li>
+            <li><a href="#FAQS">FAQS</a></li>
+            <li><a href="#Support">Support</a></li>
+            <li><a href="#About US">About US</a></li>
+          </ul>
+        </div>
+        <div class="footer-column-two">
+          <ul>
+            <li>PRODUCT</li>
+            <li><a href="#Log In"></a>Log In</li>
+            <li><a href="#Personal">Personal</a></li>
+            <li><a href="#Business">Business</a></li>
+            <li><a href="#Team"></a> Team</li>
+          </ul>
+        </div>
+        <div class="footer-column-three">
+          <ul>
+            <li>PRESS</li>
+            <li><a href="#Logos"></a> Logos</li>
+            <li><a href="#Events"></a>Events</li>
+            <li><a href="#Stories"></a>Stories</li>
+            <li><a href="#Office"></a>Office</li>
+          </ul>
+        </div>
+        <div class="footer-column-four">
+          <ul>
+            <li>TEAM</li>
+            <li><a href=""></a>Carrer</li>
+            <li><a href=""></a>Founders</li>
+            <li><a href=""></a>Culture</li>
+            <li><a href=""></a>Onboarding</li>
+          </ul>
+        </div>
+        <div class="footer-column-five">
+          <ul>
+            <li>LEGAL</li>
+            <li><a href="">GDPR</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href=""></a>Terms of Service</li>
+            <li><a href=""></a>Disclaimer</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-nav">
+        <img src="./assets.treact/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg" alt="" class="footer-img">
+        <h1><span>Treact Inc.</span></h1>
+      </div>
+      <div class="copyright">
+        <i class="fa fa-copyright"></i> 2018 Treact Inc. All Rights Reseverved.
+      </div>
+      <div class="footer-button">
+        <button><i class="fa fa-facebook"></i></button>
+        <button><i class="fa fa-twitter"></i></button>
+        <button><i class="fa fa-youtube"></i></button>
+      </div>
+    </footer>
+  </body>
+</html>
